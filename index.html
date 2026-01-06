@@ -3,81 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arda Güler - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Mon Portfolio - Développeur</title>
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo-container">
-            <div class="red-dot">ARDA<br>GÜLER</div>
-            <div class="club-info">
-                <span class="club-name">Real Madrid CF</span>
-                <span class="position">Attacking Midfielder and Winger</span>
-            </div>
-        </div>
-
-        <div class="header-right">
-            <nav class="nav-links">
-                <a href="#" class="nav-item"><span class="dot"></span> Partners</a>
-                <a href="#" class="nav-item"><span class="dot"></span> Collaboration</a>
-            </nav>
-
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-threads"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
-        </div>
+    <header>
+        <h1>JEAN DUPONT</h1>
+        <p>Développeur Logiciel & Designer d'Interfaces</p>
+        <nav>
+            <ul>
+                <li><a href="#projets">Mes Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="hero">
-        <div class="quote">
-            <p><strong>"ONLY A FEW OF MY DREAMS HAVE COME TRUE; I STILL HAVE A LOT OF DREAMS TO ACHIEVE."</strong></p>
-            <span>Arda Güler</span>
-        </div>
+    <hr>
 
-        <h1 class="bg-name">ARDA GÜLER</h1>
-        
-        <div class="number">15</div>
-        
-        <img src="assets/img/arda_guler.png" alt="Arda Güler" class="player-img">
+    <main>
+        <section id="a-propos">
+            <h2>À propos de moi</h2>
+            <p>Passionné par la résolution de problèmes complexes et la création d'outils numériques intuitifs. J'utilise Git pour la gestion de version et je travaille souvent sur différentes branches pour organiser mon code.</p>
+        </section>
+
+        <section id="projets">
+            <h2>Mes Projets Récents</h2>
+            <ul>
+                <li>
+                    <strong>Application de Gestion</strong> - Une plateforme pour aider les entreprises à suivre leurs stocks.
+                </li>
+                <li>
+                    <strong>Site E-commerce</strong> - Boutique en ligne complète avec système de paiement sécurisé.
+                </li>
+            </ul>
+        </section>
+
+        <section id="competences">
+            <h2>Compétences Techniques</h2>
+            <ul>
+                <li>Langages : HTML, JavaScript, Python</li>
+                <li>Outils : Git (commit, push, merge)</li>
+                <li>Langues : Français, Anglais</li>
+            </ul>
+        </section>
     </main>
+    <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form action="#" method="post">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
 
-    <div class="widgets">
-        <div class="video-preview">
-            <img src="assets/img/arda_guler_dribble.jpg" alt="Arda Güler Action" class="video-thumbnail">
-            <div class="play-button"><i class="fas fa-play"></i></div>
-            <div class="video-overlay"></div>
-        </div>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
-        <div class="next-game">
-            <div class="game-header">
-                <span class="badge-red">NEXT GAME</span>
-                <span class="game-time">Tomorrow 19:00</span>
-            </div>
-            
-            <div class="teams-row">
-                <div class="team">
-                    <img src="assets/img/real-madrid-Logo.png" alt="Real Madrid" class="logo-fix">
-                    <span>Real Madrid</span>
-                </div>
-                <span class="vs">VS</span>
-                <div class="team">
-                    <span>Pachuca</span>
-                    <img src="assets/img/pachuca-logo.png" alt="Pachuca" class="logo-fix">
-                </div>
-            </div>
-            
-            <div class="game-footer">
-                <span>Intercontinental Cup</span>
-                <span>Final</span>
-            </div>
-        </div>
-    </div>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Envoyer le message</button>
+    </form>
+</section>
+
+    <hr>
+
+    <footer id="contact">
+        <h2>Me contacter</h2>
+        <p>Email : jean.dupont@email.com</p>
+        <p>LinkedIn | GitHub</p>
+        <p><small>&copy; 2026 - Portfolio construit sans CSS.</small></p>
+    </footer>
 
 </body>
 </html>
