@@ -1,0 +1,75 @@
+/* Variables pour personnaliser facilement les couleurs */
+:root {
+  --primary-color: #2563eb;
+  --text-color: #1f2937;
+  --bg-color: #f9fafb;
+  --card-bg: #ffffff;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+section {
+  background: var(--card-bg);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-bottom: 2px solid var(--primary-color);
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+hr {
+  display: none; /* Cache les traits horizontaux pour un look plus moderne */
+}
